@@ -1,17 +1,17 @@
 {
-  "version": "2.0.11",
-  "versionCode": 20011,
+  "version": "2.0.12",
+  "versionCode": 20012,
   "applicationId": "studio.bayoucard.lite",
-  "publishedAt": "2026-10-15T11:26:23.545Z",
-  "notes": "应用内浏览、创建与选择手机文件夹；默认跟随系统，点击直接切换日夜；优化使用声明排版；加入 GitHub 版本检测、下载和系统安装入口。",
+  "publishedAt": "2026-10-15T15:09:31.539Z",
+  "notes": "全新网页保持空卡包与空对话；头像改用系统图片选择；网页可在支持的浏览器中自选资料目录；角色卡保持原格式并加入封面缩略图；调整作者署名、下载导航和使用说明。",
   "android": {
-    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.11/BayouTavern-Lite-2.0.11-android.apk",
-    "size": 45008815,
-    "sha256": "ce7c39495b81a66719dca01a5f09be010d250efeb46d126933fe905219451ffc"
+    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.12/BayouTavern-Lite-2.0.12-android.apk",
+    "size": 45029911,
+    "sha256": "59d2ddb302ad6e79fd3d83566ad0a44fcc51120d9804c49ace112399f57f295f"
   },
   "web": {
-    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.11/BayouTavern-Lite-2.0.11.html",
-    "size": 63143687,
-    "sha256": "c2a7f14b19355c0d60508b8700886330f13a9433ff5214f2e5f9b9106893f599"
+    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.12/BayouTavern-Lite-2.0.12.html",
+    "size": 63177024,
+    "sha256": "7b52155a067a8ad0bc1e2829e5481fb2c4336d744ff416d96ccb07fb63a82114"
   }
 }
