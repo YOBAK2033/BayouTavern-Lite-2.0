@@ -1,2 +1,2 @@
-7b52155a067a8ad0bc1e2829e5481fb2c4336d744ff416d96ccb07fb63a82114  BayouTavern-Lite-2.0.12.html
-59d2ddb302ad6e79fd3d83566ad0a44fcc51120d9804c49ace112399f57f295f  BayouTavern-Lite-2.0.12-android.apk
+9d997e26de677d0db4c6083a16f571278bb14adbc6133086429d0f59c0eee27b  BayouTavern-Lite-2.0.13.html
+68b317fdec4c3d5210424f0c76d561a034c514d8b6e4acdb2ac3c062cb2fda76  BayouTavern-Lite-2.0.13-android.apk

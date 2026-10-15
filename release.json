@@ -1,17 +1,17 @@
 {
-  "version": "2.0.12",
-  "versionCode": 20012,
+  "version": "2.0.13",
+  "versionCode": 20013,
   "applicationId": "studio.bayoucard.lite",
-  "publishedAt": "2026-10-15T15:09:31.539Z",
-  "notes": "全新网页保持空卡包与空对话；头像改用系统图片选择；网页可在支持的浏览器中自选资料目录；角色卡保持原格式并加入封面缩略图；调整作者署名、下载导航和使用说明。",
+  "publishedAt": "2026-10-15T18:27:33.295Z",
+  "notes": "修复用户动图头像上传后变静态，保留动画及裁剪显示；安卓首次启动说明图片与文件授权并申请通知权限；已收到的私聊／群聊主动消息接入系统通知，点按进入对应对话。沿用空白首启、原格式封面和已确认排版。",
   "android": {
-    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.12/BayouTavern-Lite-2.0.12-android.apk",
-    "size": 45029911,
-    "sha256": "59d2ddb302ad6e79fd3d83566ad0a44fcc51120d9804c49ace112399f57f295f"
+    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.13/BayouTavern-Lite-2.0.13-android.apk",
+    "size": 45035151,
+    "sha256": "68b317fdec4c3d5210424f0c76d561a034c514d8b6e4acdb2ac3c062cb2fda76"
   },
   "web": {
-    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.12/BayouTavern-Lite-2.0.12.html",
-    "size": 63177024,
-    "sha256": "7b52155a067a8ad0bc1e2829e5481fb2c4336d744ff416d96ccb07fb63a82114"
+    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.13/BayouTavern-Lite-2.0.13.html",
+    "size": 63179992,
+    "sha256": "9d997e26de677d0db4c6083a16f571278bb14adbc6133086429d0f59c0eee27b"
   }
 }
