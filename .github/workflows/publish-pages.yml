@@ -1,0 +1,37 @@
+name: Sync latest release to online play
+on:
+  release:
+    types: [published, edited, released]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [index.html, release.json, scripts/sync-pages.py, .github/workflows/publish-pages.yml]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages-latest
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Verify and prepare latest stable release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync-pages.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Publish online play and update feed together
+        id: deployment
+        uses: actions/deploy-pages@v4
