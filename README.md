@@ -6,7 +6,7 @@ BayouTavern Lite 是基于 AI 酒馆的角色卡、世界书与对话思路改�
 
 **[在线游玩](https://yobak2033.github.io/BayouTavern-Lite-2.0/) · [下载单文件 HTML / Android APK](https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/latest)**
 
-当前版本：**2.0.13**。这里是独立的 2.0 发布仓库；[旧 BayouTavern-Lite 仓库](https://github.com/YOBAK2033/BayouTavern-Lite)保留经典版和历史记录。
+当前版本：**2.0.14**。这里是独立的 2.0 发布仓库；[旧 BayouTavern-Lite 仓库](https://github.com/YOBAK2033/BayouTavern-Lite)保留经典版和历史记录。
 
 在线游玩与安卓更新清单会随新的正式 Release 自动部署。发布者先在草稿版本上传对应的 HTML、APK、`SHA256SUMS.txt`，再发布 `v2.x.x`；工作流验证附件版本及哈希后同步在线页和更新清单。预发布版本不会替换正式在线版；仅上传附件但未发布 Release 不会升级在线版。必要时可在 Actions 手动运行 **Sync latest release to online play**。
 
