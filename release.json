@@ -1,17 +1,17 @@
 {
-  "version": "2.0.15",
-  "versionCode": 20015,
+  "version": "2.0.16",
+  "versionCode": 20016,
   "applicationId": "studio.bayoucard.lite",
-  "publishedAt": "2026-10-16T08:55:54.390Z",
-  "notes": "记忆保留正文、关键词和重要程度编辑，新增原始摘要、修订历史与来源查看，可还原。用户修订与当前游玩进度分层处理，不直接改变关系、物品、事件或成就，也不重复发奖。待核对内容保留不确定性；已确认的手机布局、原签名和已有资料保持兼容。",
-  "android": {
-    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.15/BayouTavern-Lite-2.0.15-android.apk",
-    "size": 45057247,
-    "sha256": "30330e445244946d948458a633e1e4985d5adaefe212dedfbdbf5bbae99e1308"
-  },
+  "publishedAt": "2026-10-30T08:45:16.760596+00:00",
+  "notes": "维护更新：Lite 2.0.16\n\n- 开场方案按所选身份及已填写资料筛选，随机选择只使用可用方案，更换身份后重新判断。\n- 修复先描述动作、转向明确角色再轻声提问时，完整提问可能漏投的问题；继续保护未说出口的内容与知情范围。\n- 纳入物品待拾取入口、容量与仓库存放、关系结算对象、移动后的事件与成就检查、存档升级入口及导出后再次下载等修复。\n- 纳入记忆主题词、来源及时间范围处理、重新归档、上下文去重和模型请求取消/超时/迟到保护等改进。记忆仍按3/6/12轮与内容量兜底。\n- 群聊不提供成员私信；私聊线下由角色本人完整回复，群聊线下由旁白整段叙事。包含桌面表情入口及精灵战斗HP布局调整。\n\n网页与Android采用同一业务源码。APK沿用原包名和发布签名，版本码20016；请直接覆盖更新，不要先卸载。设置页底部版本号可手动检查更新；Android最终安装仍需系统确认。\n\n这是供当前使用的维护版本，不代表全部玩法与模型质量验收完成。部分模型仍可能出现时间、主体、战斗叙事或摘要偏差，核心状态以实际规则记录为准。构建、定向回归、APK签名和对齐检查已通过，本轮没有连接真机，未宣称已完成真机覆盖安装验证。更新不会主动清空资料，建议保留标准存档备份。\n\n附件仅含程序及校验信息，不附带私人卡片、测试存档或API配置。\n",
   "web": {
-    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.15/BayouTavern-Lite-2.0.15.html",
-    "size": 63229672,
-    "sha256": "d9dadfc577e0256f84079024d7e8c65c414f6f84122aefc29d12cf49bd3f63df"
+    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.16/BayouTavern-Lite-2.0.16.html",
+    "size": 63957798,
+    "sha256": "e37d40f490ccd45e2f60f60ceb72539987730bf6cacbd6978fc3902283435839"
+  },
+  "android": {
+    "url": "https://github.com/YOBAK2033/BayouTavern-Lite-2.0/releases/download/v2.0.16/BayouTavern-Lite-2.0.16-android.apk",
+    "size": 45329091,
+    "sha256": "e22c3cde4afae8d24d9ef4c7936c4df5b6644bcfcfbff7d11c6d791070a99c53"
   }
 }
